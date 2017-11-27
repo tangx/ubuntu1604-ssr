@@ -5,7 +5,8 @@
 source /etc/profile
 cd /shadowsocksr/shadowsocks
 
-if [ "$#" == 0 ] || [ "$1" == "server.py" ]
+# if [ "$#" == 0 ] || [ "$1" == "server.py" ]
+if [ "$1" == "server.py" ]
 then
 {
     shift 
